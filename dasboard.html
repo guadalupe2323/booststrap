@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>lista</title>
+  </head>
+
+  <body style="background:pink">
+  <h1 style="text-align:center">LISTA</h1><br>
+    <section class="seccion">
+      <div class="container">
+        <div class="row">
+            <div class=" col-md-12 col-lg-12 col-xl-8" style="background-color:aliceblue">
+              <table class="table table-striped">
+                <thead>
+                <tr>
+                  <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Edad</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Diego</td>
+                    <td>Cueto</td>
+                    <td>23<br> <input type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2"  value="Editar"> <input id="exampleModalCenter1"type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3" value="Eliminar"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Lucio</td>
+                    <td>Escobar</td>
+                    <td>22 <br><input type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" value="Editar"> <input id="exampleModalCenter1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3" value="Eliminar"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Tomas</td>
+                    <td>Lopez</td>
+                    <td>22<br><input type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" value="Editar"> <input id="exampleModalCenter1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3" value="Eliminar"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Fidel</td>
+                    <td>Rodriguez</td>
+                    <td>22<br><input type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" value="Editar"> <input id="exampleModalCenter1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3" value="Eliminar"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Lorena</td>
+                    <td>Zarate</td>
+                    <td>22<br><input type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" value="Editar"> <input id="exampleModalCenter1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3" value="Eliminar"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Roxana</td>
+                    <td>Salazar</td>
+                    <td>22<br><input type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" value="Editar"> <input id="exampleModalCenter1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3" value="Eliminar"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Guadalupe</td>
+                    <td>Aguilar</td>
+                    <td>22<br><input type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" value="Editar"> <input id="exampleModalCenter1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa3" value="Eliminar"></td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+  <div class=" col-md-12 col-lg-12 col-xl-4" style="background-color:aliceblue">
+  <button type="button" name="button" style="height:40px;width:100px" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Nuevo</button>
+   <a class="btn btn-primary" href="todo.html">Ver todo</a><br>
+</div>
+        </div>
+    </section>
+    <!-- Modal nuevo-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal ver todo-->
+        <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle3" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle3">Todo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+            <h1>Ver todo</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Editat -->
+        <div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabe2" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabe2">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Nombre</p>
+                <input type="text" name="" value="">
+                <p>Apellido</p>
+                <input type="text" name="" value="">
+                <p>Edad</p>
+                <input type="text" name="" value="">
+                <p>Sexo</p>
+                <input type="text" name="" value="">
+                <p>Email</p>
+                <input type="text" name="" value="">
+                <p>Telefono</p>
+                <input type="text" name="" value="">
+                <p>Direccion</p>
+                <input type="text" name="" value="">
+                <p>Colonia</p>
+                <input type="text" name="" value="">
+                <p>Municipio</p>
+                <input type="text" name="" value="">
+                <p>Estado</p>
+                <input type="text" name="" value="">
+                <p>Pais</p>
+                <input type="text" name="" value="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
